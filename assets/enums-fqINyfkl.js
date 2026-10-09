@@ -1,0 +1,1 @@
+function t(n){return n<5?4:n<10?3:n<20?2:n<30?1:0}function i(n){return`雷电距离 ${n.lightningDistance}km，强度 ${n.lightningIntensity}kA`}function a(n){return n.lightningDistance<30}const r={NONE:0,BLUE:1,YELLOW:2,ORANGE:3,RED:4},e={0:"无",1:"蓝色预警",2:"黄色预警",3:"橙色预警",4:"红色预警"},l={HANDLED:1},s={0:"未处理",1:"已处理"};export{e as L,r as a,l as b,t as c,s as d,i as e,a as i};
